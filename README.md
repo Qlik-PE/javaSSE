@@ -28,6 +28,9 @@ There are several example implementations that you can review to get a better un
 * [SecSSE Server-Side Extension](https://github.com/Qlik-PE/javaSSE/tree/master/src/main/java/qlik/sse/plugin/secsse)
 * [AES Encryption/Decryption SSE](https://github.com/Qlik-PE/javaSSE/tree/master/src/main/java/qlik/sse/plugin/aesencryption)
 
+## Javadoc
+
+You can find the Javadoc for JavaSSE [here](https://qlik-pe.github.io/javaSSE/apidocs/index.html).
 
 ## Building JavaSSE
 
