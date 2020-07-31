@@ -2,3 +2,5 @@ dependency-reduced-pom.xml
 /target
 /.idea
 qlik-java-sse.iml
+object-model.uxf
+*.swp
