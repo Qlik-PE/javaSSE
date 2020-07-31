@@ -1,8 +1,8 @@
 
 package qlik.sse.plugin;
 
-import qlik.sse.ServerSideExtension.FunctionType;
-import qlik.sse.ServerSideExtension.BundledRows;
+import qlik.sse.generated.ServerSideExtension.FunctionType;
+import qlik.sse.generated.ServerSideExtension.BundledRows;
 
 /**
  * An abstract base class for an aggregation function.
@@ -42,6 +42,8 @@ public abstract class AggregationFunction extends PluginFunction {
      *
      * Note that you should be careful to clear/reset/reallocate any storage
      * used to accumulate state during the aggregation process.
+     *
+     * @return the aggregation result as BundledRows.
      */
     public abstract BundledRows reduce();
 }

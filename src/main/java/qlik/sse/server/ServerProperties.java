@@ -13,8 +13,6 @@
  */
 package qlik.sse.server;
 
-import qlik.sse.plugin.Plugin;
-
 import java.util.Properties;
 
 /**
@@ -96,6 +94,7 @@ public class ServerProperties {
 
     /**
      * Get the default properties.
+     * @return java.util.Properties with the default property values.
      */
     public static Properties getDefaultProperties() {
         Properties props = new Properties();

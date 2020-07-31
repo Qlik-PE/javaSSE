@@ -15,9 +15,9 @@ package qlik.sse.plugin.sample;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import qlik.sse.ServerSideExtension.BundledRows;
-import qlik.sse.ServerSideExtension.DataType;
-import qlik.sse.ServerSideExtension.Parameter;
+import qlik.sse.generated.ServerSideExtension.BundledRows;
+import qlik.sse.generated.ServerSideExtension.DataType;
+import qlik.sse.generated.ServerSideExtension.Parameter;
 import qlik.sse.plugin.PluginFunction;
 import qlik.sse.plugin.TensorFunction;
 
