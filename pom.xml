@@ -136,6 +136,20 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+            <reportOutputDirectory>${basedir}/docs</reportOutputDirectory>
+            <destDir>apidocs</destDir>
+            <outputDirectory>${basedir}/docs</outputDirectory>
+            <additionalJOption>-J-Xmx1024m</additionalJOption>
+            <detectJavaApiLink>true</detectJavaApiLink>
+            <detectLinks>true</detectLinks>
+            <excludePackageNames>*.testing.*,qlik.sse.generated</excludePackageNames>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>
