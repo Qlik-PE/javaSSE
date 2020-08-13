@@ -18,15 +18,15 @@ import io.grpc.stub.StreamObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import qlik.sse.generated.ServerSideExtension.Capabilities;
-import qlik.sse.generated.ServerSideExtension.FunctionType;
-import qlik.sse.generated.ServerSideExtension.DataType;
-import qlik.sse.generated.ServerSideExtension.BundledRows;
-import qlik.sse.generated.ServerSideExtension.FunctionRequestHeader;
-import qlik.sse.generated.ServerSideExtension.ScriptRequestHeader;
-import qlik.sse.generated.ServerSideExtension.Row;
-import qlik.sse.generated.ServerSideExtension.Dual;
-import qlik.sse.generated.ServerSideExtension.Empty;
+import qlik.sse.ServerSideExtension.Capabilities;
+import qlik.sse.ServerSideExtension.FunctionType;
+import qlik.sse.ServerSideExtension.DataType;
+import qlik.sse.ServerSideExtension.BundledRows;
+import qlik.sse.ServerSideExtension.FunctionRequestHeader;
+import qlik.sse.ServerSideExtension.ScriptRequestHeader;
+import qlik.sse.ServerSideExtension.Row;
+import qlik.sse.ServerSideExtension.Dual;
+import qlik.sse.ServerSideExtension.Empty;
 
 import qlik.sse.server.PluginServer;
 import qlik.sse.server.ServerProperties;

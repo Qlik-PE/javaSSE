@@ -1,8 +1,8 @@
 
 package qlik.sse.plugin;
 
-import qlik.sse.generated.ServerSideExtension.FunctionType;
-import qlik.sse.generated.ServerSideExtension.BundledRows;
+import qlik.sse.ServerSideExtension.FunctionType;
+import qlik.sse.ServerSideExtension.BundledRows;
 
 /**
  * An abstract base class for an aggregation function.

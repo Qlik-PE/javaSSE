@@ -4,3 +4,5 @@ dependency-reduced-pom.xml
 qlik-java-sse.iml
 object-model.uxf
 *.swp
+secupi/
+javasse.properties

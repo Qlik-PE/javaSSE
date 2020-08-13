@@ -1,7 +1,7 @@
 package qlik.sse.plugin;
 
 import io.grpc.Metadata;
-import qlik.sse.generated.ConnectorGrpc.ConnectorImplBase;
+import qlik.sse.ConnectorGrpc.ConnectorImplBase;
 
 import java.util.Map;
 

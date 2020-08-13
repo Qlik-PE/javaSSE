@@ -13,10 +13,10 @@
  */
 package qlik.sse.plugin;
 
-import qlik.sse.generated.ServerSideExtension.FunctionDefinition;
-import qlik.sse.generated.ServerSideExtension.FunctionType;
-import qlik.sse.generated.ServerSideExtension.DataType;
-import qlik.sse.generated.ServerSideExtension.Parameter;
+import qlik.sse.ServerSideExtension.FunctionDefinition;
+import qlik.sse.ServerSideExtension.FunctionType;
+import qlik.sse.ServerSideExtension.DataType;
+import qlik.sse.ServerSideExtension.Parameter;
 
 
 import java.util.List;

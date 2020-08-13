@@ -3,7 +3,7 @@ syntax="proto3";
 /**
  * A gRPC definition for the Qlik engine extension protocol.
  */
-package qlik.sse.generated;
+package qlik.sse;
 
 /**
  * Enable protobuf arena allocations in C++.

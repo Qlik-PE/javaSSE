@@ -13,8 +13,8 @@
  */
 package qlik.sse.plugin;
 
-import qlik.sse.generated.ServerSideExtension.BundledRows;
-import qlik.sse.generated.ServerSideExtension.FunctionType;
+import qlik.sse.ServerSideExtension.BundledRows;
+import qlik.sse.ServerSideExtension.FunctionType;
 
 
 /**

@@ -215,7 +215,7 @@ public class PluginServer {
           // we displayed the help screen, so exit.
           System.exit(0);
       } catch (UnrecognizedArgumentException e) {
-          System.out.printf("%s%s%n", e.getMessage());
+          System.out.printf("unrecognized argument: %s%n", e.getMessage());
           parser.printHelp();
           System.exit(0);
       }
